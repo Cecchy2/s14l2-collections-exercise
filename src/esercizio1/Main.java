@@ -11,7 +11,7 @@ public class Main {
 
         while (true) {
 
-            System.out.println("inserisci un numero, saranno il numero di elementi.");
+            System.out.println("inserisci un numero, sarà il numero di elementi.");
             try {
                 ripetizioni = Integer.parseInt(scanner.nextLine());
                 if (ripetizioni <= 0) {
@@ -26,7 +26,7 @@ public class Main {
 
         Set<String> parole = new HashSet<>();
         Set<String> paroleRipetute = new HashSet<>();
-        
+
         for (int i = 0; i < ripetizioni; i++) {
             System.out.println("scrivi una parola");
             String parola = scanner.nextLine();
