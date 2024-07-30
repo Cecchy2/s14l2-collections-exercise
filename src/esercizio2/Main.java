@@ -11,7 +11,6 @@ public class Main {
 
         int n = 0;
 
-
         while (true) {
             try {
                 System.out.println("inserisci un numero");
@@ -20,7 +19,6 @@ public class Main {
                     break;
                 } else {
                     System.out.println("devi inserire un numero positivo");
-
                 }
             } catch (NumberFormatException e) {
                 System.out.println("devi inserire un numero intero");
@@ -49,7 +47,7 @@ public class Main {
         boolean stampaTrue = false;
         while (true) {
             try {
-                System.out.println("vuoi stampare i valori in posizione pari? scrivi true, dispari? scrivi false");
+                System.out.println("vuoi stampare i valori in posizione pari/true, dispari/false");
 
                 stampaTrue = Boolean.parseBoolean(scanner.nextLine());
                 break;
